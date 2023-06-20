@@ -1,0 +1,14 @@
+Polyfill
+
+index.html(root) => index.js
+
+interpolation -> {}
+
+onchange()
+doChanges()
+
+ReactLifeHooks
+
+useState(name , setName) => setName -> create new variable whenever it's called.
+
+... operator in Javascript
