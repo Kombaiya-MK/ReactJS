@@ -17,25 +17,6 @@ function GetInterns()
         }]
     )
 
-    // var InternsData = ()=>{
-    //     fetch("http://localhost:5199/api/User/GetAllInterns",{
-    //       "method":"GET",
-    //       headers:{
-    //           "accept": "text/plain"
-    //       },
-    //       "body":JSON.stringify({...Interns,"Interns":{} })})
-    //  .then(async (data)=>{
-        
-    //     console.log(data)
-    //         var myData = await data.json();
-    //         console.log(myData)
-    //         setInterns(myData)
-    //         console.log(Interns)
-    //     }).catch((err)=>{
-    //       console.log(err.error)
-    //     })
-    // }
-
         useEffect(() => {
         fetch('http://localhost:5199/api/User/GetAllInterns')
            .then((res) => res.json())
